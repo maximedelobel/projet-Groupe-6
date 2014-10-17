@@ -14,7 +14,7 @@ import model.Item;
 
 /**
  *
- * @author caroljmcdonald
+ * @author groupe 6
  */
 @Stateless
 public class ItemFacade implements Serializable {
