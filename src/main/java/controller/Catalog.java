@@ -1,5 +1,5 @@
 /*
- * Catalog.java test commit
+ * Catalog.java correction
  *
  */
 package controller;
