@@ -1,0 +1,414 @@
+/* 
+    Document   : artefusa
+    Created on : 28-nov-2012, 17.11.48
+    Author     : Francesco
+    Description:
+        Purpose of the stylesheet follows.
+*/
+
+.img-polaroid {
+  padding: 4px;
+  background-color: #1a1a1a;
+  border: 1px solid #ccc;
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.4);
+}
+body {
+  
+  font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-size: 13px;
+  line-height: 18px;
+  background-image: url(../../../images/back-lights.jpg);
+  background-repeat:no-repeat;
+  background-position: bottom center; 
+}
+h3{
+  font-weight: lighter;
+  color: #b5b5b5;
+  font-family: 'Monda', sans-serif;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+}
+.caption h3{
+  font-weight: lighter;
+  color: #b5b5b5;
+  font-family: 'Monda', sans-serif;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+  line-height: 30px;
+}
+/*MODIFICHE AL CAROUSEL*/
+.carousel-control {
+  height: 80px;
+  margin-top: 0;
+  font-size: 120px;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+  background-color: transparent;
+  border: 0;
+}
+.carousel-caption {
+  background-color: rgba(0,0,0,0.5);
+  padding-top: 0px;
+}
+.carousel-caption p{
+  font-size: 14px;
+  padding: 5px;
+  margin-bottom: 10px;
+}
+.carousel-caption h1,
+.carousel-caption .lead {
+  font-weight: lighter;
+  line-height: 1.25;
+  color: #fff;
+  text-shadow: 0 1px 1px rgba(0,0,0,.4);
+  font-family: 'Monda', sans-serif;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+}
+.carousel-caption h1{
+  font-size: 26px;
+  margin-bottom: 10px;
+  font-family: 'Monda', sans-serif;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+}
+/*FINE MODIFICHE AL CAROUSEL*/
+#footer{
+  background-image: url(../../../images/footer.jpg);
+  height: 500px;
+  background-position: center;
+  -webkit-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.9);
+  -moz-box-shadow: 0 1px 10px rgba(0, 0, 0, 0.9);
+  box-shadow: 0 1px 10px rgba(0, 0, 0, 0.9);
+}
+#footer .container{
+  padding-top: 20px;
+}
+.well{
+  background-color: #202020;
+}
+.thumbnail{
+  box-shadow: none;
+}
+.thumbnail .caption{
+  color: #c6c6c6;
+}
+
+form legend{
+  color: #b5b5b5;
+    font-family: 'Monda', sans-serif;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+}
+
+
+@media (min-width: 1200px) { /*FACCIO SPARIRE LO SFONDO SU CELLULARI E TABLET*/
+  .header-home{
+    background-image: url(../../../images/header.jpg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    height: 256px;
+  }
+  #primary-navigation{
+    margin-top: 67px;
+  }
+}
+
+.terzo{
+  margin-top: 20px;
+}
+.index-box{
+height: 520px;
+}
+#footer .social{
+  height: 250px;
+}
+.social h3{
+  display: block;
+  width: 100%;
+  padding: 0;
+  margin-bottom: 20px;
+  font-size: 21px;
+  line-height: 40px;
+  color: #333333;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+  color: #b5b5b5;
+  -moz-box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  -o-box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  border-bottom: 1px solid #121212;
+  margin-top: 0px;
+  font-family: 'Monda', sans-serif;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+}
+.social ul li{
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+  color: #b5b5b5;
+  -moz-box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  -o-box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  border-bottom: 1px solid #121212;
+}
+.social ul li a{
+  color: #595959;
+  text-decoration: none;
+}
+.social ul li a:hover{
+  color: #b5b5b5;
+  text-decoration: none;
+}
+.credit{
+  margin-top: 110px;
+  font-size: 80%;
+}
+.credit a{
+  text-decoration: none;
+  color: #ffffff;
+}
+.footer-nav a:hover{
+  text-decoration: none;
+} 
+.footer-nav{
+  margin-top: 10px;
+}
+
+.comodo{
+  height: 400px;
+}
+
+h1{
+  font-weight: lighter;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+  color: #b5b5b5;
+  font-size: 28px;
+  font-family: 'Monda', sans-serif;
+  }
+
+.nav-pills li a:hover{
+  color: #ffffff;
+}
+.calendario{
+  margin-left: 40px;
+}
+.griglia-foto li{
+  margin-right: -10px;
+}
+.griglia-foto p{
+  text-align: center;
+  box-shadow: 1px 1px 3px #000;
+  width: 140px;
+  margin-left: auto;
+  margin-right: auto;
+  background-color: rgba(0,0,0,0.4) !important;
+  color:#b5b5b5;
+}
+#file{
+  margin-top: 20px;
+}
+
+#lightbox #imageContainer img {
+    max-width: 600px;
+}
+.divider-sidebar{
+  border-bottom: 1px solid #e5e5e5;
+  -moz-box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  -webkit-box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  -o-box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  box-shadow: rgba(255, 255, 255, 0.07) 0 1px 0;
+  border-bottom: 1px solid #121212;
+  padding-bottom: 10px;
+}
+.curriculum{
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.data{
+  margin-bottom: -20px;
+}
+.data-hero{
+  padding-top: 40px;
+  margin-bottom: -60px;
+  margin-left: 60px;
+}
+.corpo-news{
+  margin-left: 60px;
+  margin-right: 70px;
+  text-align: justify;
+}
+.lista-news li{
+  margin-bottom: 40px;
+}
+.lista-news li img{
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.evidenza{
+  background: none;
+  margin-bottom: -60px;
+  }
+.evidenza h1{
+  font-size: 50px;
+  margin-bottom: 20px;
+}
+.img-hero{
+  margin-right: 20px;
+  margin-bottom: 10px;
+  float: left;
+}
+.dettaglio-news{
+  padding: 20px;
+  margin-bottom: 30px;
+  font-size: 13px;
+  font-weight: lighter;
+  line-height: 24px;
+  text-align: justify;
+}
+.centered{
+  text-align: center;
+}
+.alert ul{
+  list-style-type: none;
+}
+
+#recaptcha_widget_div input{
+  color: #FFFFFF;
+}
+select{
+  background-color: #202020;
+  color: #999999;
+}
+textarea{
+  color: #ffffff;
+}
+
+.sommario{
+  text-align: justify;
+}
+.titolo-spettacolo{
+height:40px;
+}
+
+.blocco{
+  background-color: #333333;
+  height: 60px;
+  background-image: url("../../../images/blocco.png");
+  background-position: bottom center;
+  background-repeat: no-repeat;
+  position: relative;
+}
+.blocco h2{
+  font-size: 18px;
+  font-weight: lighter;
+  text-shadow: 2px 2px 3px rgba(0,0,0,0.4);
+  color: #b5b5b5;
+  font-family: 'Monda', sans-serif;
+  line-height: 26px;
+}
+.blocco >.clicca{
+  color: #b5b5b5;
+  position: absolute;
+  top: 80px;
+  left: 160px;
+  font-size: 10px;
+}
+.manifesto{
+  margin-right: 20px;
+}
+.corsi a{
+  text-decoration: none;
+  
+}
+.corsi a:hover > .blocco{
+  background-color: #965a00;
+  background-image: none; 
+-moz-transition: background-color .50s ease-in;
+  -o-transition: background-color .50s ease-in;
+  -webkit-transition: background-color .50s ease-in;
+  transition: background-color .50s ease-in;
+}
+
+/* RIDEFINISCO LA PAGINAZIONE*/
+
+.pagination {
+  margin: 20px 0;
+}
+.pagination ul {
+  display: inline-block;
+  *display: inline;
+  /* IE7 inline-block hack */
+
+  *zoom: 1;
+  margin-left: 0;
+  margin-bottom: 0;
+  -webkit-border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
+  -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 1px 2px rgba(0, 0, 0, 0.05);
+}
+.pagination ul > li .page{
+  display: inline;
+}
+.pagination ul > li > .page a,
+.pagination ul > li > .page span {
+  float: left;
+  padding: 4px 12px;
+  line-height: 20px;
+  text-decoration: none;
+  background-color: #ffffff;
+  border: 1px solid #dddddd;
+  border-left-width: 0;
+}
+.pagination ul > li > .page a:hover,
+.pagination ul > .active > a, 
+.pagination ul > .active > span {
+  background-color: #f5f5f5;
+}
+.pagination ul > li > .page > .active {
+  background-color: #f5f5f5;
+  color: #999999;
+  cursor: default;
+}
+/*.pagination ul > .active > a,
+.pagination ul > .active > span {
+  color: #999999;
+  cursor: default;
+}*/
+/*.pagination ul > .disabled > span,
+.pagination ul > .disabled > a,
+.pagination ul > .disabled > a:hover {
+  color: #999999;
+  background-color: transparent;
+  cursor: default;
+}*/
+.pagination ul > li > .page > .disabled,
+.pagination ul > li > .page > .disabled:hover {
+  /*color: #999999;
+  background-color: transparent;
+  border-top: 1px solid transparent;
+  border-bottom: 1px solid transparent;*/
+  background-color: #ffffff;
+  cursor: default;
+}
+.pagination ul > li:first-child > .page a,
+.pagination ul > li:first-child > .page span {
+  border-left-width: 1px;
+  -webkit-border-top-left-radius: 4px;
+  -moz-border-radius-topleft: 4px;
+  border-top-left-radius: 4px;
+  -webkit-border-bottom-left-radius: 4px;
+  -moz-border-radius-bottomleft: 4px;
+  border-bottom-left-radius: 4px;
+}
+.pagination ul > li:last-child > .page a,
+.pagination ul > li:last-child > .page span {
+  -webkit-border-top-right-radius: 4px;
+  -moz-border-radius-topright: 4px;
+  border-top-right-radius: 4px;
+  -webkit-border-bottom-right-radius: 4px;
+  -moz-border-radius-bottomright: 4px;
+  border-bottom-right-radius: 4px;
+}
