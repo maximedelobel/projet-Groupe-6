@@ -13,7 +13,7 @@ import model.Item;
 
 /**
  *
- * @author carol mcdonald
+ * @author groupe 6
  */
 @ManagedBean
 @SessionScoped
